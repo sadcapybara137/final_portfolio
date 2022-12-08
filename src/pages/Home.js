@@ -12,7 +12,7 @@ const Home = () => {
                             <p className={"center_text"}> SAD CAPYBARA </p>
                         </div>
                         <div className={"information_block"}>
-                            <p className={"info_header"}> ABOUT ME </p>
+                            <p className={"info_header_2"}> ABOUT ME </p>
                             <p className={"info_par_100"}> My name is Sad Capybara and I am a junior at Brown University. In my portfolio, I am showcasing my design skills by critiquing existing designs,
                             as in the "Bagel Gourmet Redesign" and "Personas - Stop and Shop Self Checkout" as well as creating designs of my own, as in "Style Transfer" and "Interactive Bakery Website".</p>
                         </div>
@@ -26,15 +26,15 @@ const Home = () => {
                             <Link to={"bagel/writ"}>
                                 <img className={"grid_img"} src="images/Home/bagel_gourmet_img.jpg"/>
                             </Link>
-                            <p className={"info_header"}> BAGEL GOURMET REDESIGN </p>
-                            <p className={"info_header"}> Critique | Visual Design | Interface Design </p>
+                            <p className={"info_header_2"}> BAGEL GOURMET REDESIGN </p>
+                            <p className={"info_header_2"}> Critique | Visual Design | Interface Design </p>
                         </div>
                         <div className="grid_item">
                             <Link to={"development"}>
                                 <img className={"grid_img"} src="images/Home/sad-capybaras-bakery-logo.png"/>
                             </Link>
-                            <p className={"info_header"}> React | Visual Design </p>
-                            <p className={"info_header"}> INTERACTIVE BAKERY WEBSITE </p>
+                            <p className={"info_header_2"}> React | Visual Design </p>
+                            <p className={"info_header_2"}> INTERACTIVE BAKERY WEBSITE </p>
                         </div>
                     </div>
                     <div className="grid_row">
@@ -42,15 +42,15 @@ const Home = () => {
                             <Link to={"personas"}>
                                 <img className={"grid_img"} src="images/Home/stop-and-shop-logo.png"/>
                             </Link>
-                            <p className={"info_header"}> Critique | Interface Design </p>
-                            <p className={"info_header"}> PERSONAS - STOP AND SHOP SELF CHECKOUT </p>
+                            <p className={"info_header_2"}> Critique | Interface Design </p>
+                            <p className={"info_header_2"}> PERSONAS - STOP AND SHOP SELF CHECKOUT </p>
                         </div>
                         <div className="grid_item">
                             <Link to={"style_transfer"}>
                                 <img className={"grid_img"} src="images/Home/bananas_3.png"/>
                             </Link>
-                            <p className={"info_header"}> Functional Programming | Visual Design </p>
-                            <p className={"info_header"}> STYLE TRANSFER </p>
+                            <p className={"info_header_2"}> Functional Programming | Visual Design </p>
+                            <p className={"info_header_2"}> STYLE TRANSFER </p>
                         </div>
                     </div>
                 </div>
