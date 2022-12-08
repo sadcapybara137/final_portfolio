@@ -87,6 +87,7 @@ const StyleTransfer = () => {
                     <p className={"caption_text"}> Content Weight: 1,024 |  Style Weight: 4,096</p>
                 </div>
             </div>
+            <br/> <br/>
             <p> As the style weight is decreased, the image looks more like the original content image, whereas as the style
             weight is increased, the image looks more like the style image.</p>
             <h2> Conclusion </h2>
