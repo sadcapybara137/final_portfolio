@@ -26,7 +26,7 @@ const BagelGourmet = () => {
                 </select>
             </div>
             <div className="image_banner">
-                <img src="/images/BagelGourmet/vicky-ng-lIQRPsA43tw-unsplash.jpg" className="bagel_img" alt="An image of three bagels,
+                <img src="../images/BagelGourmet/vicky-ng-lIQRPsA43tw-unsplash.jpg" className="bagel_img" alt="An image of three bagels,
                 webpage banner."/>
                 <h3 className="bagel_top"> 222 Richmond St, Providence RI, 02905 </h3>
                 <h3 className="bagel_bottom"> (401)-454-8800 </h3>
@@ -54,19 +54,19 @@ const BagelGourmet = () => {
                         <p className="yellow_text"> Mon - Sun Hours: <br/> In Store: 7:00 AM - 3:00PM <br/> Delivery: 7:00
                             AM - 2:00 PM</p>
                     </div>
-                    <img className="img_row" src="/images/BagelGourmet/building.jpg" alt="Picture of bagel's being placed in an oven"/>
-                    <img className="opt_img" src="/images/BagelGourmet/55732162.jpg" alt="Picture of bagel's being placed in an oven"/>
+                    <img className="img_row" src="../images/BagelGourmet/building.jpg" alt="Picture of bagel's being placed in an oven"/>
+                    <img className="opt_img" src="../images/BagelGourmet/55732162.jpg" alt="Picture of bagel's being placed in an oven"/>
                 </div>
             </div>
             <div className="img_box">
-                <img className="img_cell" src="/images/BagelGourmet/55732099.jpg" alt="Picture of bagels in an oven"/>
-                <img className="img_cell" src="/images/BagelGourmet/55732121.jpg" alt="Picture of several bins of bagels"/>
-                <img className="no_phone_img" src="/images/BagelGourmet/55732162.jpg"
+                <img className="img_cell" src="../images/BagelGourmet/55732099.jpg" alt="Picture of bagels in an oven"/>
+                <img className="img_cell" src="../images/BagelGourmet/55732121.jpg" alt="Picture of several bins of bagels"/>
+                <img className="no_phone_img" src="../images/BagelGourmet/55732162.jpg"
                      alt="Picture of bagel's being placed in an oven"/>
             </div>
             <div className="img_box2">
-                <img className="img_cell" src="/images/BagelGourmet/55732162.jpg" alt="Picture of bagel's being placed in an oven"/>
-                <img className="img_cell" src="/images/BagelGourmet/building.jpg" alt="Picture of Bagel Gourmet's building"/>
+                <img className="img_cell" src="../images/BagelGourmet/55732162.jpg" alt="Picture of bagel's being placed in an oven"/>
+                <img className="img_cell" src="../images/BagelGourmet/building.jpg" alt="Picture of Bagel Gourmet's building"/>
             </div>
         </div>
         </div>
