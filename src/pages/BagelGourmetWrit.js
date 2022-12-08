@@ -20,7 +20,7 @@ const BagelGourmetWrit = () => {
                 also because I like sandwiches. </b>
             </p>
             <div className="img_caption">
-                <img src="/images/BagelGourmet/bagel_gourmet_page.png" alt="A picture of Bagel Gourmet's website."/>
+                <img src="images/BagelGourmet/bagel_gourmet_page.png" alt="A picture of Bagel Gourmet's website."/>
                 <p> A picture of Bagel Gourmet's <a href="http://bagelgourmetcafe.com/"> website </a>. </p>
             </div>
             <h2> Webpage Problems </h2>
@@ -80,7 +80,7 @@ const BagelGourmetWrit = () => {
                             of the page. Parts of the text in the bar blends in with the background while viewed
                             in grayscale:
                         </li>
-                        <img src="/images/BagelGourmet/bagel_gourmet_contrast.png" alt="A picture of the Bagel Gourmet website featuring
+                        <img src="images/BagelGourmet/bagel_gourmet_contrast.png" alt="A picture of the Bagel Gourmet website featuring
                         text in greyscale and a similar gray background with low constrast." />
                     </ul>
                 </li>
@@ -99,13 +99,13 @@ const BagelGourmetWrit = () => {
             </p>
 
             <div className="wireframes">
-                <img src="/images/BagelGourmet/wireframe_laptop.png"
+                <img src="images/BagelGourmet/wireframe_laptop.png"
                      alt="Picture of annotated wireframe for laptop"/>
                     Wireframe for laptop webpage. <br/><br/>
-                    <img src="/images/BagelGourmet/wireframe_tablet.png" alt="Picture of annotated wireframe for tablet"
+                    <img src="images/BagelGourmet/wireframe_tablet.png" alt="Picture of annotated wireframe for tablet"
                          />
                         Wireframe for tablet webpage. <br/><br/>
-                        <img src="/images/BagelGourmet/wireframe_phone.png" alt="Picture of annotated wireframe for phone"
+                        <img src="images/BagelGourmet/wireframe_phone.png" alt="Picture of annotated wireframe for phone"
                              />
                             Wireframe for phone webpage. <br/><br/>
             </div>
@@ -116,7 +116,7 @@ const BagelGourmetWrit = () => {
                 I tried to keep the color scheme of the webpage as close to Bagel Gourmet's as possible.
             </p>
             <div className="wireframes">
-                <img src="/images/BagelGourmet/style_guide.png" alt="An image of the style guide outlining core elements of the webpage."/>
+                <img src="images/BagelGourmet/style_guide.png" alt="An image of the style guide outlining core elements of the webpage."/>
             </div>
             <h2> High Fidelity Prototypes </h2>
             <p>
@@ -125,16 +125,16 @@ const BagelGourmetWrit = () => {
             </p>
             <div className="wireframes">
                 <div className={"img_par"}>
-                    <img src="/images/BagelGourmet/hifi_laptop.png"
+                    <img src="images/BagelGourmet/hifi_laptop.png"
                          alt="Picture of annotated high-fidelity prototype for laptop" />
                     <p> High-fidelity prototype for laptop webpage. </p> <br/><br/>
                 </div>
                 <div className={"img_par"}>
-                    <img src="/images/BagelGourmet/hifi_tablet.png" alt="Picture of annotated high-fidelity prototype for tablet"/>
+                    <img src="images/BagelGourmet/hifi_tablet.png" alt="Picture of annotated high-fidelity prototype for tablet"/>
                     <p> High-fidelity prototype for tablet webpage. </p> <br/><br/>
                 </div>
                 <div className={"img_par"}>
-                    <img src="/images/BagelGourmet/hifi_phone.png" alt="Picture of annotated high-fidelity prototype for phone"/>
+                    <img src="images/BagelGourmet/hifi_phone.png" alt="Picture of annotated high-fidelity prototype for phone"/>
                     <p> High-fidelity prototype for phone webpage. </p> <br/><br/>
                 </div>
             </div>
