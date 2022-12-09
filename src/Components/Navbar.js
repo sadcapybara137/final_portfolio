@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <div className={"nav_container"}>
             <li className={"inline_li"}>
-                <Link to={"/"} style={{ textDecoration: 'none' }}>
+                <Link to={"//"} style={{ textDecoration: 'none' }}>
                     <p className={"nav_text"}>
                         Home
                     </p>
