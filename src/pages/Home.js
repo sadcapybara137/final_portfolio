@@ -12,7 +12,7 @@ const Home = () => {
                             <p className={"center_text"}> SAD CAPYBARA </p>
                         </div>
                         <div className={"information_block"}>
-                            <p className={"info_header"}> ABOUT ME </p>
+                            <p className={"info_header_2"}> ABOUT ME </p>
                             <p className={"info_par_100"}> My name is Sad Capybara and I am a junior at Brown University. In my portfolio, I am showcasing my design skills by critiquing existing designs,
                             as in the "Bagel Gourmet Redesign" and "Personas - Stop and Shop Self Checkout" as well as creating designs of my own, as in "Style Transfer" and "Interactive Bakery Website".</p>
                         </div>
