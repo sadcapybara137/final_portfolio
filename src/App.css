@@ -5,11 +5,11 @@
 .left_column {
   display: block;
   width: 35%;
-  height: 100vh;
   margin-top: 0rem;
   padding-left: 2.5%;
   padding-right: 2.5%;
-  background-image: url('public/images/Home/henry-co--odUkx8C2gg-unsplash.jpg');
+  padding-bottom: 2.5%;
+  background-image: url('../public/images/Home/henry-co--odUkx8C2gg-unsplash.jpg');
 }
 
 .right_column {
@@ -24,7 +24,7 @@
   font-size: 20rem;
   font-weight: bolder;
   color: #797cb2;
-  width: 45%;
+  width: 65%;
   border-width: 4px;
   border-style: solid;
   border-color: #c0c0c0;
