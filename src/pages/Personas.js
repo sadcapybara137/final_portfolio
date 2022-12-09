@@ -1,9 +1,12 @@
 import React from 'react'
 import "./Personas.css"
+import Navbar from "../Components/Navbar";
 
 const Personas = () => {
     return (
         <div>
+            <Navbar></Navbar>
+        <div className={"page_container"}>
         <h1> Stop and Shop Self-Checkout </h1>
     <h2> Introduction </h2>
     <center>
@@ -149,6 +152,7 @@ const Personas = () => {
             with user interface design in a professional setting, I plan on using a similar interview process with users
             for valuable information about interfaces I may otherwise be blind to. </p> <br/><br/>
     </div>
+        </div>
     );
 }
 

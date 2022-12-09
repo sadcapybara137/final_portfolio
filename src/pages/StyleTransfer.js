@@ -1,9 +1,13 @@
 import React from 'react'
 import "./Personas.css"
+import Navbar from "../Components/Navbar";
 
 const StyleTransfer = () => {
     return (
         <div>
+        <Navbar></Navbar>
+        <div className={"page_container"}>
+            <div className={"padding_block"}></div>
             <h2> Style Transfer </h2>
             <h3> Introduction </h3>
             <center>
@@ -99,6 +103,7 @@ const StyleTransfer = () => {
                 One thing I love about this program is you never really know what to expect with the output, but the output
                 often leaves you like "huh, I guess that is how Van Gogh would paint my cat".
             </p> <br/> <br/>
+        </div>
         </div>
     );
 }

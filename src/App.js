@@ -11,11 +11,10 @@ import StyleTransfer from "./pages/StyleTransfer";
 
 function App() {
   return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
             <Route path="/" element={<Home />}/>
-            <Route path="bagel/writ" element={<BagelGourmetWrit/>}/>
-            <Route path="bagel" element={<BagelGourmet />} />
+            <Route path="bagel" element={<BagelGourmetWrit/>}/>
             <Route path="development" element={<Development />} />
             <Route path="personas" element={<Personas />} />
             <Route path="style_transfer" element={<StyleTransfer />} />

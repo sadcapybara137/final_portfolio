@@ -1,0 +1,31 @@
+.inline_li {
+    display: inline;
+    text-align: center;
+    margin-left: 5%;
+    font-size: 30px;
+    padding: 15px;
+    background-color: #797cb2;
+    transition: 0.8s;
+}
+
+.nav_text {
+    color: #1b4945;
+    display: inline;
+    text-align: center;
+}
+
+.nav_container {
+    margin: 0 auto;
+    width: 100%;
+    background-color: #797cb2;
+    display: table;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+}
+
+.inline_li:hover {
+    filter: alpha(opacity=80);
+    -webkit-filter: brightness(120%);
+}

@@ -1,10 +1,13 @@
 import React from 'react'
 import './Personas.css'
+import Navbar from "../Components/Navbar";
 import {Link} from "react-router-dom";
 
 const BagelGourmetWrit = () => {
     return (
         <div>
+        <Navbar></Navbar>
+        <div className={"page_container"}>
             <h1> Bagel Gourmet Cafe Webpage </h1>
             <h2> Introduction </h2>
             <p>
@@ -147,6 +150,7 @@ const BagelGourmetWrit = () => {
             how to make the page work well for different layouts. In my future work with creating websites, I will use my lessons learned
             in the project in accessibility, like including alt tags and organization to take a step back from my work and consider
             how it can be improved.</p> <br/> <br/>
+        </div>
         </div>
     );
 }
