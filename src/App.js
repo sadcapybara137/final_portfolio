@@ -8,6 +8,7 @@ import Home from './pages/Home'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ReactDOM from "react-dom";
 import StyleTransfer from "./pages/StyleTransfer";
+import BakeryInfo from "./pages/BakeryInfo";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Routes>
             <Route path="/" element={<Home />}/>
             <Route path="bagel" element={<BagelGourmetWrit/>}/>
-            <Route path="development" element={<Development />} />
+            <Route path={"bakery"} element={<Development/>}/>
+            <Route path="development" element={<BakeryInfo />} />
             <Route path="personas" element={<Personas />} />
             <Route path="style_transfer" element={<StyleTransfer />} />
         </Routes>
